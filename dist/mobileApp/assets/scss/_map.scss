@@ -1,0 +1,407 @@
+.map-control-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  background: $white;
+  margin: 2.25rem 0 0 0;
+
+  li {
+    a {
+      font-size: 1.25rem;
+      line-height: 1rem;
+      padding: 0.5rem;
+      display: flex;
+      width: 2.5rem;
+      height: 2.5rem;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: $warning;
+      text-decoration: none;
+
+      &:not(:hover) {
+        color: $gray-600;
+      }
+
+      &.leaflet-control-zoom-in,
+      &.leaflet-control-zoom-out,
+      &.leaflet-control-previous-extent,
+      &.leaflet-control-next-extent {
+        font-size: .875rem;
+      }
+    }
+
+    &.active {
+      a {
+        background-color: $warning;
+        border-radius: $border-radius;
+        color: $dark;
+      }
+    }
+  }
+}
+
+.map-view {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-data-toggle {
+  position: absolute;
+  right: 11px;
+  z-index: 1020;
+  padding: 0 !important;
+  top: 11px;
+  background: $dark;
+  color: $white;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+
+  &.datatabOpen {
+    background: $warning;
+    color: $dark;
+  }
+
+}
+
+.map-with-detailstable {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1030
+}
+
+
+.bottom-menu-options {
+  max-width: 400px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.card {
+  &.card-bottom-popover {
+    >.card-header {
+      .title {
+        margin: 0;
+      }
+
+      .btn {
+        font-size: 1.75rem;
+        cursor: pointer;
+        color: $gray-400;
+        @include transition;
+
+        &:hover {
+          color: $dark;
+        }
+      }
+    }
+
+    >.card-body {
+      max-height: 300px;
+      overflow-y: auto;
+      padding: 0.75rem !important;
+
+      &.draw-tool {
+        overflow-y: visible !important;
+      }
+    }
+
+  }
+
+  &.card-collapse-menu {
+    overflow: hidden;
+
+    &+.card-collapse-menu {
+      margin-top: 0.75rem;
+    }
+
+    .card-header {
+      background-color: transparent;
+      border: none;
+      @include transition;
+      position: relative;
+      font-weight: 600;
+      font-size: 1rem;
+      color: $dark;
+      padding-right: 2rem;
+
+      &:before {
+        font-family: bootstrap-icons !important;
+        content: "\f282";
+        position: absolute;
+        right: 1rem;
+        top: 50%;
+        transform: translateY(-50%) rotate(0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1.5rem;
+        @include transition;
+      }
+
+      &:not(.active) {
+        &:before {
+          transform: translateY(-50%) rotate(180deg);
+        }
+      }
+
+      &.active {
+        padding: 1rem 1.25rem;
+      }
+    }
+
+    .list-group-checkbox {
+      border-radius: 0;
+
+      .list-group-item {
+        margin: 0;
+        border: none;
+        border-radius: 0;
+      }
+    }
+  }
+}
+.show-hide{
+  position: absolute;
+  z-index: 1001;
+  left: 1rem;
+  bottom: 4.5rem;
+  @include transition;
+  @media (min-width:992px) {
+    &:not(.play-time-shrink){
+      &.side-hover-play{
+        left: $sidemenuOptionWidth - 48;
+      }
+      
+    }
+    &.play-time-shrink{
+      left: $sidemenuOptionWidth + 32;
+      &.side-hover-play{
+        left: $sidemenuOptionWidth + $sidemenuWidthOpen - 48;
+        }
+    }
+  }
+}
+
+@media (min-width:992px) {
+  .side-hover-play{
+    .play-time-stand {
+    left: $sidemenuOptionWidth - 64;
+    }
+  }
+  .play-time-shrink {
+    .play-time-stand {
+      left: $sidemenuOptionWidth + 16;
+    }
+    &.side-hover-play{
+      .play-time-stand {
+      left: $sidemenuOptionWidth + $sidemenuWidthOpen - 64;
+      }
+    }
+  }
+
+}
+
+.play-time-stand {
+  position: absolute;
+  z-index: 1000;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  @include transition;
+  padding:  0 1rem;
+
+  .btn {
+    &.btn-play {
+      width: 2rem;
+      height: 2rem;
+      line-height: 2rem;
+      padding: 0;
+      background: $white;
+      box-shadow: $box-shadow;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: .875rem;
+      color: $danger;
+
+      .fa {
+        &.fa-play {
+          text-indent: 3px;
+        }
+      }
+    }
+  }
+
+  .progress-bar-container {
+    position: relative;
+    margin: 0 30px;
+
+    .progress {
+      height: 4px;
+      border-radius: 10px;
+      background: $gray-200;
+      box-shadow: $box-shadow;
+    }
+
+    .time-stand-graph {
+      position: absolute;
+      left: 0;
+      right: 0;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: right;
+      justify-content: space-between;
+      top: -6px;
+
+      li {
+        $circleSize: 16px;
+        width: $circleSize;
+        height: $circleSize;
+        position: relative;
+
+        span {
+          &.circle {
+            width: $circleSize;
+            height: $circleSize;
+            background: lighten($danger, 10);
+            border-radius: 50%;
+            display: block;
+            transform: scale(1);
+          }
+
+          &.circle .tooltiptext {
+            visibility: hidden;
+            display: inline-block;
+            font-size: 9px;
+            background-color: $gray-200;
+            color: $dark;
+            text-align: center;
+            border-radius: 6px;
+            padding: 3px 5px;
+            box-shadow: 0 0 4px 0 $dark;
+
+            /* Position the tooltip text - see examples below! */
+            position: absolute;
+            bottom: 17px;
+            white-space: nowrap;
+            z-index: 99999999;
+
+
+          }
+
+          /* Show the tooltip text when you mouse over the tooltip container */
+          &.circle:hover .tooltiptext {
+            visibility: visible;
+          }
+
+          &.label {
+            white-space: nowrap;
+            font-weight: 500;
+            font-size: 12px;
+            text-align: center;
+            color: $dark;
+            transform: translateX(-50%);
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            color: $white;
+            text-shadow: 0 1px 3px rgba($dark, 0.7);
+          }
+        }
+
+        &.active {
+          span {
+            &.circle {
+              transform: scale(1.4);
+              background: $danger;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+ul {
+  &.time-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+    li {
+      display: block;
+
+      &:first-child {
+        a {
+          border-radius: 2rem 0 0 2rem;
+        }
+      }
+
+      &:last-child {
+        a {
+          border-radius: 0 2rem 2rem 0;
+        }
+      }
+
+      a {
+        font-weight: 500;
+        font-size: .75rem;
+        text-transform: uppercase;
+        text-align: center;
+        border: 1px solid $warning;
+        display: flex;
+        height: 2rem;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-decoration: none;
+        border-radius: 0;
+        line-height: calc(2rem - 2px) !important;
+        @include transition;
+
+        &:not(.active) {
+          background: $gray-100;
+          color: $gray-700;
+
+          &:hover {
+            background: $gray-200;
+          }
+        }
+
+        &.active {
+          background: $warning;
+          color: $dark;
+        }
+      }
+
+      &+li {
+        a {
+          border-left: none;
+        }
+      }
+    }
+  }
+}

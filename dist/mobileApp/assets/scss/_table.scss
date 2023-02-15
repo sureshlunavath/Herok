@@ -1,0 +1,132 @@
+.card-table {
+  box-shadow: none;
+  border-radius: $border-radius;
+  overflow: hidden;
+
+
+}
+
+.table {
+  background-color: $gray-200;
+
+    font-size: 1rem;
+
+  &.table-sm {
+    @media (min-width:992px) {
+      font-size: .875rem;
+    }
+  }
+
+  td,
+  th {
+    vertical-align: middle;
+    @media (max-width:992px) {
+      padding:.5rem 0.75rem;
+    }
+  }
+
+  thead {
+    tr {
+      th {
+        background-color: $green;
+        color: $white;
+        border-color: rgba($white, .2);
+      }
+
+      &:first-child {
+        th {
+
+          &:first-child {
+            border-top-left-radius: $border-radius;
+          }
+        }
+      }
+
+    }
+  }
+
+  &.table-striped {
+    tbody {
+      td {
+        border-color: $gray-400;
+
+        &.fixed-col {
+          background: #e9ecef;
+        }
+        .link {
+          text-decoration: none;
+          color: $blue;
+        }
+        .high-light{
+          text-decoration: none;
+          color: $blue;
+          cursor: pointer;
+        }
+      }
+
+      tr {
+        &:nth-child(odd) {
+          background: $gray-300;
+
+          td {
+            &.fixed-col {
+              background: #dee2e6;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+.table-toolbar {
+  margin-bottom: .5rem;
+
+  .table-title {
+    font-weight: 600;
+    color: $dark;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  .filter {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+
+    .start {
+      flex: 1 1 auto;
+
+      .input-group {
+        max-width: 280px;
+        width: 100%;
+        position: relative;
+        border-radius: $border-radius;
+        background: $light;
+        border: 1px solid $gray-500;
+
+        .form-control {
+          padding-left: 2.25rem;
+          border: none;
+          background-color: transparent;
+          border-radius: $border-radius !important;
+
+        }
+
+        .input-group-prepend {
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          display: flex;
+          align-items: center;
+          z-index: 3;
+          width: 2.25rem;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

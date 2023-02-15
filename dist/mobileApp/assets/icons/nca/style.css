@@ -1,0 +1,351 @@
+@font-face {
+  font-family: 'nca';
+  src:  url('fonts/nca.eot?i5v54k');
+  src:  url('fonts/nca.eot?i5v54k#iefix') format('embedded-opentype'),
+    url('fonts/nca.ttf?i5v54k') format('truetype'),
+    url('fonts/nca.woff?i5v54k') format('woff'),
+    url('fonts/nca.svg?i5v54k#nca') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="nc-"], [class*=" nc-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'nca' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nc-visibility:before {
+  content: "\e931";
+}
+.nc-unlock:before {
+  content: "\e932";
+}
+.nc-trophy:before {
+  content: "\e933";
+}
+.nc-tag:before {
+  content: "\e934";
+}
+.nc-video-player-2:before {
+  content: "\e935";
+}
+.nc-browser-1:before {
+  content: "\e936";
+}
+.nc-server:before {
+  content: "\e937";
+}
+.nc-browser:before {
+  content: "\e938";
+}
+.nc-location:before {
+  content: "\e939";
+}
+.nc-analytics-3:before {
+  content: "\e93a";
+}
+.nc-map-14:before {
+  content: "\e93b";
+}
+.nc-map-13:before {
+  content: "\e93c";
+}
+.nc-magnifying-glass:before {
+  content: "\e93d";
+}
+.nc-video-player-1:before {
+  content: "\e93e";
+}
+.nc-video-player:before {
+  content: "\e93f";
+}
+.nc-music:before {
+  content: "\e940";
+}
+.nc-medal:before {
+  content: "\e941";
+}
+.nc-map-12:before {
+  content: "\e942";
+}
+.nc-map-11:before {
+  content: "\e943";
+}
+.nc-map-10:before {
+  content: "\e944";
+}
+.nc-padlock:before {
+  content: "\e945";
+}
+.nc-map-9:before {
+  content: "\e946";
+}
+.nc-placeholder-5:before {
+  content: "\e947";
+}
+.nc-placeholder-4:before {
+  content: "\e948";
+}
+.nc-link-1:before {
+  content: "\e949";
+}
+.nc-link:before {
+  content: "\e94a";
+}
+.nc-lifesaver:before {
+  content: "\e94b";
+}
+.nc-key-1:before {
+  content: "\e94c";
+}
+.nc-key:before {
+  content: "\e94d";
+}
+.nc-map-8:before {
+  content: "\e94e";
+}
+.nc-placeholder-3:before {
+  content: "\e94f";
+}
+.nc-placeholder-2:before {
+  content: "\e950";
+}
+.nc-hierarchy:before {
+  content: "\e951";
+}
+.nc-worldwide:before {
+  content: "\e952";
+}
+.nc-map-7:before {
+  content: "\e953";
+}
+.nc-placeholder-1:before {
+  content: "\e954";
+}
+.nc-route:before {
+  content: "\e955";
+}
+.nc-panel:before {
+  content: "\e956";
+}
+.nc-pointer:before {
+  content: "\e957";
+}
+.nc-paper-plane-1:before {
+  content: "\e958";
+}
+.nc-paper-plane:before {
+  content: "\e959";
+}
+.nc-pin-1:before {
+  content: "\e95a";
+}
+.nc-map-6:before {
+  content: "\e95b";
+}
+.nc-pin:before {
+  content: "\e95c";
+}
+.nc-map-5:before {
+  content: "\e95d";
+}
+.nc-map-4:before {
+  content: "\e95e";
+}
+.nc-compass-2:before {
+  content: "\e95f";
+}
+.nc-compass-1:before {
+  content: "\e960";
+}
+.nc-compass:before {
+  content: "\e961";
+}
+.nc-analytics-2:before {
+  content: "\e962";
+}
+.nc-analytics-1:before {
+  content: "\e963";
+}
+.nc-analytics:before {
+  content: "\e964";
+}
+.nc-map-3:before {
+  content: "\e965";
+}
+.nc-bow:before {
+  content: "\e966";
+}
+.nc-map-2:before {
+  content: "\e967";
+}
+.nc-placeholder:before {
+  content: "\e968";
+}
+.nc-map-1:before {
+  content: "\e969";
+}
+.nc-map:before {
+  content: "\e96a";
+}
+.nc-edit:before {
+  content: "\e96b";
+}
+.nc-logout-1:before {
+  content: "\e92e";
+}
+.nc-login:before {
+  content: "\e92f";
+}
+.nc-logout:before {
+  content: "\e930";
+}
+.nc-enter:before {
+  content: "\e92d";
+}
+.nc-zone-filled-01:before {
+  content: "\e921";
+}
+.nc-zone-filled-02:before {
+  content: "\e922";
+}
+.nc-zone-filled-03:before {
+  content: "\e923";
+}
+.nc-zone-filled-04:before {
+  content: "\e924";
+}
+.nc-zone-filled-05:before {
+  content: "\e925";
+}
+.nc-zone-filled-06:before {
+  content: "\e926";
+}
+.nc-zone-outline-01:before {
+  content: "\e927";
+}
+.nc-zone-outline-02:before {
+  content: "\e928";
+}
+.nc-zone-outline-03:before {
+  content: "\e929";
+}
+.nc-zone-outline-04:before {
+  content: "\e92a";
+}
+.nc-zone-outline-05:before {
+  content: "\e92b";
+}
+.nc-zone-outline-06:before {
+  content: "\e92c";
+}
+.nc-search:before {
+  content: "\e920";
+}
+.nc-delete:before {
+  content: "\e91a";
+}
+.nc-floppy-disk:before {
+  content: "\e91b";
+}
+.nc-list:before {
+  content: "\e91c";
+}
+.nc-down-arrow:before {
+  content: "\e91d";
+}
+.nc-visibility1:before {
+  content: "\e91e";
+}
+.nc-tick:before {
+  content: "\e91f";
+}
+.nc-download:before {
+  content: "\e919";
+}
+.nc-arrow-left:before {
+  content: "\e90e";
+}
+.nc-arrow-right:before {
+  content: "\e90f";
+}
+.nc-arrow-top:before {
+  content: "\e910";
+}
+.nc-arrow-down:before {
+  content: "\e911";
+}
+.nc-calender:before {
+  content: "\e912";
+}
+.nc-circle:before {
+  content: "\e913";
+}
+.nc-update:before {
+  content: "\e914";
+}
+.nc-gis:before {
+  content: "\e915";
+}
+.nc-mimic:before {
+  content: "\e916";
+}
+.nc-table:before {
+  content: "\e917";
+}
+.nc-user:before {
+  content: "\e918";
+}
+.nc-dashboard:before {
+  content: "\e90a";
+}
+.nc-model:before {
+  content: "\e90b";
+}
+.nc-result:before {
+  content: "\e90c";
+}
+.nc-utilities:before {
+  content: "\e90d";
+}
+.nc-water-release:before {
+  content: "\e908";
+}
+.nc-rain:before {
+  content: "\e909";
+}
+.nc-close:before {
+  content: "\e907";
+}
+.nc-menu:before {
+  content: "\e900";
+}
+.nc-nca:before {
+  content: "\e901";
+}
+.nc-nhp:before {
+  content: "\e902";
+}
+.nc-operation:before {
+  content: "\e903";
+}
+.nc-reservoirs:before {
+  content: "\e904";
+}
+.nc-vassar:before {
+  content: "\e905";
+}
+.nc-water-audit:before {
+  content: "\e906";
+}

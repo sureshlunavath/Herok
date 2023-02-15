@@ -1,0 +1,129 @@
+.highcharts-container {
+  background: $white;
+  margin: 0 auto;
+  .highcharts-axis-labels {
+    span {
+      font-weight: 600 !important;
+      font-family: 'Roboto' !important;
+    }
+  }
+
+  .highcharts-tooltip {
+    path {
+      border: 1px solid $white;
+      fill: white;
+      stroke: white;
+      filter: drop-shadow($tool-tip);
+      border-radius: $border-radius;
+    }
+
+    text {
+      color: $dark;
+      font-size: .75rem;
+      font-weight: 600;
+    }
+
+    .highcharts-label {
+      span {
+        font-weight: 500 !important;
+        font-family: 'Roboto' !important;
+      }
+    }
+  }
+
+  .highcharts-root {
+    .highcharts-color-undefined {
+      path {
+        border: 1px solid $white;
+        // fill: white;
+        // stroke: white;
+        filter: drop-shadow($tool-tip);
+        border-radius: $border-radius;
+      }
+
+      text {
+        color: $dark;
+        font-size: .75rem;
+        font-weight: 600;
+      }
+
+    }
+
+    .highcharts-axis-labels {
+      text {
+        color: #888;
+        font-family: 'Roboto';
+        font-weight: 600;
+      }
+
+    }
+
+    text {
+      font-weight: 600;
+      font-family: 'Roboto';
+      font-size: 10px !important;
+    }
+
+    .highcharts-axis {
+      text {
+        font-family: 'Roboto';
+        font-weight: 600;
+      }
+    }
+
+    .highcharts-tooltip {
+      path {
+        border: 1px solid $white;
+        fill: white;
+        stroke: white;
+        filter: drop-shadow($tool-tip);
+        border-radius: $border-radius;
+      }
+
+      text {
+        color: $dark;
+        font-size: .75rem;
+        font-weight: 600;
+      }
+
+      .highcharts-label {
+        span {
+          font-weight: 600 !important;
+          font-family: 'Roboto' !important;
+        }
+      }
+    }
+
+    // .highcharts-color-1{
+    //   path {
+    //     border: 1px solid $white;
+    //     fill: white;
+    //     stroke: $gray-700;
+    //     filter: drop-shadow($tool-tip);
+    //     border-radius: $border-radius;
+    //   }
+
+    //   text {
+    //     color: $dark;
+    //     font-size: .75rem;
+    //     font-weight: 600;
+    //   }
+    // }
+  }
+}
+
+.highcharts-chart {
+  .highcharts-container {
+    .highcharts-contextmenu {
+      .highcharts-menu {
+        border: none;
+      }
+    }
+  }
+}
+
+
+small {
+  font-weight: 600;
+  color: $black;
+}

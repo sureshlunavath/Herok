@@ -1,0 +1,180 @@
+.form-group {
+  &.floating-label {
+    position: relative;
+    margin-bottom: 1.5rem;
+
+    label {
+      margin: 0;
+      padding: .125rem .5rem;
+      background: $white;
+      position: absolute;
+      top: -.625rem;
+      left: .875rem;
+      z-index: 5;
+    }
+
+
+  }
+  label {
+    font-size: .75rem;
+    line-height: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
+
+  .form-control {
+    height: 2.75rem !important;
+  }
+
+  .input-group {
+    .form-control {
+      border-right: none;
+    }
+
+    .input-group-addon {
+      height: 2.75rem !important;
+      width: 2.75rem;
+      border-left: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.custom-checkbox {
+  cursor: pointer;
+  position: relative;
+
+  .checkbox-icon-text {
+    $size: 1.25rem;
+    padding-left: 2.5rem;
+    min-height: $size;
+    position: relative;
+    font-size: .875rem;
+    line-height: $size;
+    @include transition;
+    color: $gray-600;
+
+
+    &:before {
+      position: absolute;
+      left: 0;
+      content: '';
+      width: $size;
+      height: $size;
+      border-radius: $border-radius*.5;
+      border: 1px solid $gray-200;
+      background-color: $gray-100;
+      @include transition;
+    }
+
+    &:after {
+      position: absolute;
+      left: 0;
+      content: "\f633";
+      font-family: bootstrap-icons !important;
+      top: 0;
+      width: $size;
+      height: $size;
+      line-height: $size;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      color: $white;
+      font-size: 1rem;
+
+      @include transition;
+    }
+  }
+
+  .custom-checkbox-input {
+    display: none;
+
+    &:checked {
+      &+.checkbox-icon-text {
+        color: $primary;
+
+        &:before {
+          border-color: $primary;
+          background-color: $primary;
+          ;
+        }
+
+        &:after {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.custom-radio {
+  cursor: pointer;
+  position: relative;
+
+  .radio-icon-text {
+    $size: 1.25rem;
+    padding-left: 2.5rem;
+    min-height: $size;
+    position: relative;
+    font-size: .875rem;
+    line-height: $size;
+    @include transition;
+    color: $gray-600;
+
+
+    &:before {
+      position: absolute;
+      left: 0;
+      content: '';
+      width: $size;
+      height: $size;
+      border-radius: $border-radius*.5;
+      border: 1px solid $gray-200;
+      background-color: $gray-100;
+      @include transition;
+      border-radius: 50%;
+    }
+
+    &:after {
+      position: absolute;
+      left: 0;
+      content: "\f633";
+      font-family: bootstrap-icons !important;
+      top: 0;
+      width: $size;
+      height: $size;
+      line-height: $size;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      color: $white;
+      font-size: 1rem;
+
+      @include transition;
+    }
+  }
+
+  .custom-radio-input {
+    display: none;
+
+    &:checked {
+      &+.radio-icon-text {
+        color: $primary;
+
+        &:before {
+          border-color: $primary;
+          background-color: $primary;
+          ;
+        }
+
+        &:after {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

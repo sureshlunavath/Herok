@@ -1,0 +1,9 @@
+{
+    "result": {
+      "content": {
+        "SUPER_ADMIN": ["ADMIN", "OTHERS", "ROP_USER"],
+        "ADMIN": ["ADMIN", "OTHERS", "ROP_USER"],
+        "CAMS_USER" : ["ADMIN", "OTHERS"]
+      }
+    }
+  }

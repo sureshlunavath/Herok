@@ -1,0 +1,52 @@
+.leaflet-pane {
+  .leaflet-popup {
+    .leaflet-popup-content-wrapper {
+      .leaflet-popup-content {
+        margin: 0;
+        // width: 260px !important;
+
+        .popup-table-section {
+          .card-body {
+            h6 {
+              font-size: .875rem;
+              color: $gray-800;
+            }
+
+            .table {
+              font-size: .75rem;
+              margin-bottom: .25rem;
+
+
+
+              tbody {
+                tr {
+                  th {
+                    padding: .25rem;
+                  }
+
+                  td {
+                    padding: .25rem;
+                  }
+                }
+              }
+
+              &.table-sm {
+                font-size: .75rem;
+
+                th {
+                  padding: 0 .25rem;
+                }
+
+                td {
+                  padding: 0 .25rem;
+                }
+              }
+
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

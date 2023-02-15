@@ -1,0 +1,38 @@
+ as-split {
+   height: calc(100% - 66px) !important;
+
+   @media (min-width:992px) {
+     height: calc(100% - 88px) !important;
+
+     &.rop-view {
+       height: calc(100vh - 160px) !important;
+     }
+   }
+
+   as-split-area {
+     position: relative;
+
+     .map-container {
+       position: absolute;
+       left: 0;
+       top: 0;
+       bottom: 0;
+       right: 0;
+       display: flex;
+     }
+
+     .time-menu-tabs {
+       position: absolute;
+       top: 20px;
+       left: 50%;
+       z-index: 1040;
+       transform: translateX(-50%);
+     }
+   }
+
+   //  &.rop-view {
+   //    @media (min-width:992px) {
+   //      height: calc(100vh - 160px) !important;
+   //    }
+   //  }
+ }

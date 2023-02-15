@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="310" height="310" viewBox="0 0 310 310">
+  <defs>
+    <filter id="Ellipse_1" x="0" y="0" width="310" height="310" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon-reservoir-v1" transform="translate(-3715 1565)">
+    <g transform="matrix(1, 0, 0, 1, 3715, -1565)" filter="url(#Ellipse_1)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="110" cy="110" r="110" transform="translate(45 35)" fill="#fff"/>
+    </g>
+    <g id="r-kpi-1" transform="translate(2930 -1822)">
+      <g id="Ellipse_1-3" data-name="Ellipse 1" transform="translate(845 307)" fill="#2d99ff" stroke="#2d99ff" stroke-width="5">
+        <circle cx="95" cy="95" r="95" stroke="none"/>
+        <circle cx="95" cy="95" r="92.5" fill="none"/>
+      </g>
+      <g id="Layer_2" data-name="Layer 2" transform="translate(488.103 -154.106)">
+        <g id="Layer_1" data-name="Layer 1" transform="translate(404.897 518.106)">
+          <g id="Path_408" data-name="Path 408" transform="translate(32.849)">
+            <path id="Path_430" data-name="Path 430" d="M427.36,518.106v75.908h30.5l-17.243-75.908Z" transform="translate(-427.36 -518.106)" fill="#fff"/>
+          </g>
+          <g id="Rectangle_281" data-name="Rectangle 281" transform="translate(0 67.799)">
+            <rect id="Rectangle_285" data-name="Rectangle 285" width="27.973" height="7.56" fill="#fff"/>
+          </g>
+          <g id="Rectangle_282" data-name="Rectangle 282" transform="translate(0 46.64)">
+            <rect id="Rectangle_286" data-name="Rectangle 286" width="27.973" height="7.56" fill="#fff"/>
+          </g>
+          <g id="Rectangle_283" data-name="Rectangle 283" transform="translate(0 25.482)">
+            <rect id="Rectangle_287" data-name="Rectangle 287" width="27.973" height="7.563" fill="#fff"/>
+          </g>
+          <g id="Rectangle_284" data-name="Rectangle 284" transform="translate(0 4.327)">
+            <rect id="Rectangle_288" data-name="Rectangle 288" width="27.973" height="7.563" fill="#fff"/>
+          </g>
+          <g id="Path_409" data-name="Path 409" transform="translate(61.768 48.727)">
+            <path id="Path_431" data-name="Path 431" d="M456.2,556.716c.605,0,.828.26,1.316.828a3.757,3.757,0,0,0,6.446,0c.485-.567.708-.828,1.316-.828s.828.26,1.316.828a3.76,3.76,0,0,0,6.449,0c.486-.567.7-.828,1.316-.828v-5.289a4.132,4.132,0,0,0-3.217,1.827c-.486.567-.7.828-1.316.828s-.828-.26-1.316-.828a3.757,3.757,0,0,0-6.446,0c-.488.567-.708.828-1.316.828s-.825-.26-1.316-.828a3.76,3.76,0,0,0-6.449,0c-.483.567-.7.828-1.316.828s-.831-.26-1.316-.828a4.119,4.119,0,0,0-3.217-1.826v5.292c.608,0,.828.257,1.316.823a3.757,3.757,0,0,0,6.446,0c.486-.567.708-.828,1.316-.828Z" transform="translate(-447.136 -551.427)" fill="#fff"/>
+          </g>
+          <g id="Path_410" data-name="Path 410" transform="translate(66.356 62.501)">
+            <path id="Path_432" data-name="Path 432" d="M472.969,563.515c-.608,0-.831-.26-1.316-.828a3.76,3.76,0,0,0-6.449,0c-.486.567-.7.828-1.316.828s-.825-.26-1.316-.823a3.758,3.758,0,0,0-6.449,0c-.483.567-.7.828-1.316.828s-.828-.26-1.316-.828a4.123,4.123,0,0,0-3.217-1.826v5.289c.605,0,.828.26,1.316.828a3.757,3.757,0,0,0,6.446,0c.486-.568.7-.828,1.316-.828s.828.26,1.316.828a3.757,3.757,0,0,0,6.446,0c.486-.568.708-.828,1.316-.828s.828.26,1.316.828a3.76,3.76,0,0,0,6.449,0c.486-.568.7-.828,1.316-.828v-5.308a4.131,4.131,0,0,0-3.224,1.827c-.486.567-.708.828-1.316.828Z" transform="translate(-450.273 -560.846)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

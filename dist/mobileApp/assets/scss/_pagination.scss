@@ -1,0 +1,61 @@
+pagination-controls {
+  pagination-template {
+    .ngx-pagination {
+
+      .pagination-previous {
+        a{
+          &::before {
+            content: "\F284" !important;
+            font-family: bootstrap-icons !important;
+            margin-right: 0;
+
+
+
+          }
+        }
+        &.disabled{
+          &::before {
+            content: "\F284" !important;
+            font-family: bootstrap-icons !important;
+            margin-right: 0;
+
+
+
+          }
+        }
+
+        span {
+          display: none;
+        }
+      }
+
+      .current {
+        background: $warning;
+        border-radius: $border-radius-sm;
+        color: $black;
+      }
+
+
+      .pagination-next{
+        a{
+          &::after{
+            content:"\F285";
+            font-family: bootstrap-icons !important;
+            margin-left: 0;
+          }
+        }
+        &.disabled{
+          &::after{
+            content:"\F285";
+            font-family: bootstrap-icons !important;
+            margin-left: 0;
+          }
+        }
+
+        span{
+          display: none;
+        }
+      }
+    }
+  }
+}

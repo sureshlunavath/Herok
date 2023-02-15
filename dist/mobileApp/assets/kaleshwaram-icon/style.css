@@ -1,0 +1,357 @@
+@font-face {
+  font-family: 'kaleshwaram';
+  src:  url('fonts/kaleshwaram.eot?umi48f');
+  src:  url('fonts/kaleshwaram.eot?umi48f#iefix') format('embedded-opentype'),
+    url('fonts/kaleshwaram.ttf?umi48f') format('truetype'),
+    url('fonts/kaleshwaram.woff?umi48f') format('woff'),
+    url('fonts/kaleshwaram.svg?umi48f#kaleshwaram') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="kl-"], [class*=" kl-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'kaleshwaram' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.kl-agriculture:before {
+  content: "\e95d";
+}
+.kl-reservoir-info:before {
+  content: "\e95e";
+}
+.kl-crop-coverage:before {
+  content: "\e95f";
+}
+.kl-irrigation-efficiency:before {
+  content: "\e960";
+}
+.kl-rainfall-menu:before {
+  content: "\e961";
+}
+.kl-water-releases:before {
+  content: "\e962";
+}
+.kl-ph-maintenance-01:before {
+  content: "\e963";
+}
+.kl-ph-normal-01:before {
+  content: "\e964";
+}
+.kl-ph-trip-01:before {
+  content: "\e965";
+}
+.kl-ph-maintenance1:before {
+  content: "\e966";
+}
+.kl-ph-normal1:before {
+  content: "\e967";
+}
+.kl-ph-trip1:before {
+  content: "\e968";
+}
+.kl-ph-maintenance:before {
+  content: "\e969";
+}
+.kl-ph-trip:before {
+  content: "\e96a";
+}
+.kl-ph-trip01:before {
+  content: "\e96b";
+}
+.kl-ph-normal:before {
+  content: "\e96c";
+}
+.kl-split:before {
+  content: "\e95c";
+}
+.kl-line-arrow-bottom:before {
+  content: "\e957";
+}
+.kl-line-arrow-left:before {
+  content: "\e958";
+}
+.kl-line-arrow-right:before {
+  content: "\e959";
+}
+.kl-line-arrow-top:before {
+  content: "\e95a";
+}
+.kl-visual:before {
+  content: "\e95b";
+}
+.kl-qa:before {
+  content: "\e955";
+}
+.kl-select-area:before {
+  content: "\e956";
+}
+.kl-compare-01:before {
+  content: "\e953";
+}
+.kl-play1:before {
+  content: "\e954";
+}
+.kl-humidity:before {
+  content: "\e94f";
+}
+.kl-temperature:before {
+  content: "\e950";
+}
+.kl-rainfall:before {
+  content: "\e951";
+}
+.kl-wind-speed:before {
+  content: "\e952";
+}
+.kl-close:before {
+  content: "\e94e";
+}
+.kl-air-quality:before {
+  content: "\e944";
+}
+.kl-incidents:before {
+  content: "\e945";
+}
+.kl-population:before {
+  content: "\e946";
+}
+.kl-power:before {
+  content: "\e947";
+}
+.kl-shelters:before {
+  content: "\e948";
+}
+.kl-weather:before {
+  content: "\e949";
+}
+.kl-drinking-water:before {
+  content: "\e94a";
+}
+.kl-flow-forecast:before {
+  content: "\e94b";
+}
+.kl-drought:before {
+  content: "\e94c";
+}
+.kl-cyclones:before {
+  content: "\e94d";
+}
+.kl-search:before {
+  content: "\e943";
+}
+.kl-theme:before {
+  content: "\e942";
+}
+.kl-add-alert-pin:before {
+  content: "\e940";
+}
+.kl-map-add-alert:before {
+  content: "\e941";
+}
+.kl-art:before {
+  content: "\e93f";
+}
+.kl-aooplication:before {
+  content: "\e939";
+}
+.kl-calender:before {
+  content: "\e93a";
+}
+.kl-clear:before {
+  content: "\e93b";
+}
+.kl-compare-date:before {
+  content: "\e93c";
+}
+.kl-layer:before {
+  content: "\e93d";
+}
+.kl-play:before {
+  content: "\e93e";
+}
+.kl-aggregate-01:before {
+  content: "\e932";
+}
+.kl-overlay:before {
+  content: "\e933";
+}
+.kl-route:before {
+  content: "\e934";
+}
+.kl-aggregate:before {
+  content: "\e935";
+}
+.kl-density:before {
+  content: "\e936";
+}
+.kl-facility:before {
+  content: "\e937";
+}
+.kl-hotspot:before {
+  content: "\e938";
+}
+.kl-legend-01:before {
+  content: "\e931";
+}
+.kl-analysis:before {
+  content: "\e92f";
+}
+.kl-info:before {
+  content: "\e930";
+}
+.kl-collapse:before {
+  content: "\e92d";
+}
+.kl-expand:before {
+  content: "\e92e";
+}
+.kl-star-fill:before {
+  content: "\e92b";
+}
+.kl-star-outline:before {
+  content: "\e92c";
+}
+.kl-cross:before {
+  content: "\ea0f";
+}
+.kl-area-shape:before {
+  content: "\e928";
+}
+.kl-minus:before {
+  content: "\e929";
+}
+.kl-plus:before {
+  content: "\e92a";
+}
+.kl-line:before {
+  content: "\e920";
+}
+.kl-rectangle:before {
+  content: "\e921";
+}
+.kl-triangle:before {
+  content: "\e922";
+}
+.kl-circle:before {
+  content: "\e923";
+}
+.kl-free-hand:before {
+  content: "\e924";
+}
+.kl-point:before {
+  content: "\e925";
+}
+.kl-polygan:before {
+  content: "\e926";
+}
+.kl-add:before {
+  content: "\e927";
+}
+.kl-layer-down-arrow:before {
+  content: "\e91e";
+}
+.kl-layer-right-arrow:before {
+  content: "\e91f";
+}
+.kl-expand-layers:before {
+  content: "\e91d";
+}
+.kl-left-arrow:before {
+  content: "\e91b";
+}
+.kl-right-arrow:before {
+  content: "\e91c";
+}
+.kl-heart-fill:before {
+  content: "\e917";
+}
+.kl-heart-off:before {
+  content: "\e918";
+}
+.kl-others:before {
+  content: "\e919";
+}
+.kl-trade-licenece:before {
+  content: "\e91a";
+}
+.kl-home:before {
+  content: "\e916";
+}
+.kl-add-shape:before {
+  content: "\e900";
+}
+.kl-blackspotmonitoring:before {
+  content: "\e901";
+}
+.kl-compare:before {
+  content: "\e902";
+}
+.kl-data-analysis:before {
+  content: "\e903";
+}
+.kl-digital-number:before {
+  content: "\e904";
+}
+.kl-dma-applications:before {
+  content: "\e905";
+}
+.kl-dmamore:before {
+  content: "\e906";
+}
+.kl-drainage-network:before {
+  content: "\e907";
+}
+.kl-fullscreen:before {
+  content: "\e908";
+}
+.kl-geoportal:before {
+  content: "\e909";
+}
+.kl-grievance:before {
+  content: "\e90a";
+}
+.kl-layers:before {
+  content: "\e90b";
+}
+.kl-legend:before {
+  content: "\e90c";
+}
+.kl-measure:before {
+  content: "\e90d";
+}
+.kl-nearme:before {
+  content: "\e90e";
+}
+.kl-print-tool:before {
+  content: "\e90f";
+}
+.kl-propertytax:before {
+  content: "\e910";
+}
+.kl-road-network:before {
+  content: "\e911";
+}
+.kl-search-by-rectangle:before {
+  content: "\e912";
+}
+.kl-watercharges:before {
+  content: "\e913";
+}
+.kl-water-supplynetwork:before {
+  content: "\e914";
+}
+.kl-works-module:before {
+  content: "\e915";
+}

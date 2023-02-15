@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="310" height="310" viewBox="0 0 310 310">
+  <defs>
+    <filter id="Ellipse_1" x="0" y="0" width="310" height="310" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Total-No.ofLISchemes" transform="translate(-3715 1565)">
+    <g transform="matrix(1, 0, 0, 1, 3715, -1565)" filter="url(#Ellipse_1)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="110" cy="110" r="110" transform="translate(45 35)" fill="#fff"/>
+    </g>
+    <g id="r-kpi-1" transform="translate(2930 -1822)">
+      <g id="Ellipse_1-3" data-name="Ellipse 1" transform="translate(845 307)" fill="#ff8f6d" stroke="#ff8f6d" stroke-width="5">
+        <circle cx="95" cy="95" r="95" stroke="none"/>
+        <circle cx="95" cy="95" r="92.5" fill="none"/>
+      </g>
+      <g id="Group_51" data-name="Group 51" transform="translate(-3.284 0.333)">
+        <g id="irrigation" transform="translate(877.284 368.667)">
+          <path id="Path_71" data-name="Path 71" d="M216.953,236.077a5.084,5.084,0,0,0,10.168,0c0-5.554-5.084-14-5.084-14S216.953,230.524,216.953,236.077Z" transform="translate(-188.704 -193.157)" fill="#fff"/>
+          <path id="Path_72" data-name="Path 72" d="M400.855,215.664a5.084,5.084,0,1,0,10.168,0c0-5.553-5.084-14-5.084-14S400.855,210.111,400.855,215.664Z" transform="translate(-348.66 -175.402)" fill="#fff"/>
+          <path id="Path_73" data-name="Path 73" d="M33.051,215.664a5.084,5.084,0,1,0,10.168,0c0-5.553-5.084-14-5.084-14S33.051,210.111,33.051,215.664Z" transform="translate(-28.747 -175.402)" fill="#fff"/>
+          <path id="Path_74" data-name="Path 74" d="M0,0V3.906H2.973V8.056H15.8V3.906H26.918V8.056h12.83V3.906H50.864V8.056h12.83V3.906h2.973V0Z" fill="#fff"/>
+          <path id="Path_75" data-name="Path 75" d="M26.077,91.867l1.582,7.311H36.48l1.582-7.311Z" transform="translate(-22.682 -79.905)" fill="#fff"/>
+          <path id="Path_76" data-name="Path 76" d="M209.979,91.867l1.582,7.311h8.821l1.582-7.311Z" transform="translate(-182.638 -79.905)" fill="#fff"/>
+          <path id="Path_77" data-name="Path 77" d="M393.881,91.867l1.582,7.311h8.821l1.582-7.311Z" transform="translate(-342.594 -79.905)" fill="#fff"/>
+          <path id="Path_78" data-name="Path 78" d="M57.146,419.668l-.021.021-.021.021a6.7,6.7,0,0,1-9.48,0l-.021-.021-.021-.021a6.7,6.7,0,0,0-9.48,0l-.021.021-.021.021a6.7,6.7,0,0,1-9.48,0l-.021-.021-.021-.021a6.7,6.7,0,0,0-9.48,0l-.021.021-.021.021a6.7,6.7,0,0,1-9.48,0l-.021-.021-.021-.021a6.7,6.7,0,0,0-9.48,0l-.02.021v10.294H66.667V419.709l-.041-.041a6.7,6.7,0,0,0-9.48,0Z" transform="translate(0 -363.316)" fill="#fff"/>
+        </g>
+        <g id="irrigation-2" data-name="irrigation" transform="translate(943.05 368.667)">
+          <path id="Path_71-2" data-name="Path 71" d="M216.953,236.077a5.084,5.084,0,0,0,10.168,0c0-5.554-5.084-14-5.084-14S216.953,230.524,216.953,236.077Z" transform="translate(-188.704 -193.157)" fill="#fff"/>
+          <path id="Path_72-2" data-name="Path 72" d="M400.855,215.664a5.084,5.084,0,1,0,10.168,0c0-5.553-5.084-14-5.084-14S400.855,210.111,400.855,215.664Z" transform="translate(-348.66 -175.402)" fill="#fff"/>
+          <path id="Path_73-2" data-name="Path 73" d="M33.051,215.664a5.084,5.084,0,1,0,10.168,0c0-5.553-5.084-14-5.084-14S33.051,210.111,33.051,215.664Z" transform="translate(-28.747 -175.402)" fill="#fff"/>
+          <path id="Path_74-2" data-name="Path 74" d="M0,0V3.906H2.973V8.056H15.8V3.906H26.918V8.056h12.83V3.906H50.864V8.056h12.83V3.906h2.973V0Z" fill="#fff"/>
+          <path id="Path_75-2" data-name="Path 75" d="M26.077,91.867l1.582,7.311H36.48l1.582-7.311Z" transform="translate(-22.682 -79.905)" fill="#fff"/>
+          <path id="Path_76-2" data-name="Path 76" d="M209.979,91.867l1.582,7.311h8.821l1.582-7.311Z" transform="translate(-182.638 -79.905)" fill="#fff"/>
+          <path id="Path_77-2" data-name="Path 77" d="M393.881,91.867l1.582,7.311h8.821l1.582-7.311Z" transform="translate(-342.594 -79.905)" fill="#fff"/>
+          <path id="Path_78-2" data-name="Path 78" d="M57.146,419.668l-.021.021-.021.021a6.7,6.7,0,0,1-9.48,0l-.021-.021-.021-.021a6.7,6.7,0,0,0-9.48,0l-.021.021-.021.021a6.7,6.7,0,0,1-9.48,0l-.021-.021-.021-.021a6.7,6.7,0,0,0-9.48,0l-.021.021-.021.021a6.7,6.7,0,0,1-9.48,0l-.021-.021-.021-.021a6.7,6.7,0,0,0-9.48,0l-.02.021v10.294H66.667V419.709l-.041-.041a6.7,6.7,0,0,0-9.48,0Z" transform="translate(0 -363.316)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

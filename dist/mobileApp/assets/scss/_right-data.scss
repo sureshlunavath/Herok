@@ -1,0 +1,60 @@
+.right-data-panel {
+  padding: .75rem;
+  overflow-y: auto;
+  @media (max-width:992px) {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100000;
+    background: $white;
+    padding: 0;
+  }
+}
+
+.card {
+  &.card-data-infobox {
+    border-radius: $border-radius;
+    .ngx-pagination{
+        margin: 0;
+      }
+      .btn{
+        &.icon-only{
+          font-size: .75rem !important;
+        }
+        // color: $gray-500;
+        @include transition;
+        &:hover{
+          color: $dark;
+        }
+      }
+      .header-end{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+  }
+
+  &.card-datatab-kpi {
+    background: #CFE2FF;
+    box-shadow: none;
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        .title{
+            font-size: .875rem;
+            color: $gray-600;
+        }
+        .info{
+            color: $dark;
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 0;
+        }
+    }
+  }
+}

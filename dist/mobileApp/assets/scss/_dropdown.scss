@@ -1,0 +1,28 @@
+.dropdown {
+
+  .dropdown-toggle {
+    position: relative;
+
+    &:not(.no-arrow) {
+      padding-right: 2rem;
+
+      &::after {
+        border: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: bootstrap-icons !important;
+        content: "\f282";
+      }
+    }
+  }
+
+  .dropdown-menu-right {
+    right: 0;
+  }
+}

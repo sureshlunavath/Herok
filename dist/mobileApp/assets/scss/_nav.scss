@@ -1,0 +1,24 @@
+.nav {
+  background: $white;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius-sm;
+  padding: .5rem;
+
+  .nav-item {
+
+    .nav-link {
+      color: $gray-600;
+
+      &.active {
+        background-color: $warning;
+        color: $black;
+      }
+    }
+
+    a {
+      color: $gray-600;
+
+
+    }
+  }
+}

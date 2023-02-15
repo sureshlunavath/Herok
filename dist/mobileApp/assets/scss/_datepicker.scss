@@ -1,0 +1,80 @@
+ngb-datepicker {
+  &.dropdown-menu {
+    background-color: $white;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: $box-shadow;
+    min-width: 18rem;
+
+    .ngb-dp-day,
+    .ngb-dp-week-number,
+    .ngb-dp-weekday {
+      width: 2.5rem;
+      height: 2.5rem;
+      line-height: 2.5rem;
+    }
+
+    .ngb-dp-header {
+      background-color: transparent !important;
+      border-bottom: 0;
+      border-radius: $box-shadow $box-shadow 0 0;
+      padding-top: $box-shadow;
+
+      .btn {
+        box-shadow: none;
+        padding: 0;
+      }
+    }
+
+    .ngb-dp-months {
+      .ngb-dp-month {
+        ngb-datepicker-month-view {
+          .ngb-dp-week {
+            &.ngb-dp-weekdays {
+              background-color: transparent !important;
+              border: none;
+
+              .ngb-dp-weekday {
+                font-style: normal;
+                font-weight: 500;
+                color: $gray-500;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+bs-datepicker-container {
+  .bs-datepicker {
+    border-radius: $border-radius*1.5;
+    box-shadow: $box-shadow;
+    .bs-datepicker-container {
+      padding: 0;
+      
+      .bs-datepicker-head {
+        border-radius: $border-radius*1.5 $border-radius*1.5 0 0;
+      }
+      .bs-datepicker-body {
+        border-radius: 0 0 $border-radius*1.5 $border-radius*1.5;
+      }
+    }
+     .bs-datepicker-head,
+    .bs-datepicker-body table td span.selected,
+    .bs-datepicker-body table td.selected span,
+    .bs-datepicker-body table td span[class*="select-"]:after,
+    .bs-datepicker-body table td[class*="select-"] span:after {
+      background: $warning;
+      color: $dark;
+    }
+    .bs-datepicker-head{
+      *{
+        color: $dark;
+      }
+    }
+  }
+
+
+}

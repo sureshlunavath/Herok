@@ -1,0 +1,288 @@
+@font-face {
+  font-family: 'map-icons';
+  src:  url('fonts/map-icons.eot?uphqyx');
+  src:  url('fonts/map-icons.eot?uphqyx#iefix') format('embedded-opentype'),
+    url('fonts/map-icons.ttf?uphqyx') format('truetype'),
+    url('fonts/map-icons.woff?uphqyx') format('woff'),
+    url('fonts/map-icons.svg?uphqyx#map-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="gis-"], [class*=" gis-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'map-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gis-qa:before {
+  content: "\e955";
+}
+.gis-compare-01:before {
+  content: "\e953";
+}
+.gis-play1:before {
+  content: "\e954";
+}
+.gis-humidity:before {
+  content: "\e94f";
+}
+.gis-temperature:before {
+  content: "\e950";
+}
+.gis-rainfall:before {
+  content: "\e951";
+}
+.gis-wind-speed:before {
+  content: "\e952";
+}
+.gis-close:before {
+  content: "\e94e";
+}
+.gis-air-quality:before {
+  content: "\e944";
+}
+.gis-incidents:before {
+  content: "\e945";
+}
+.gis-population:before {
+  content: "\e946";
+}
+.gis-power:before {
+  content: "\e947";
+}
+.gis-shelters:before {
+  content: "\e948";
+}
+.gis-weather:before {
+  content: "\e949";
+}
+.gis-drinking-water:before {
+  content: "\e94a";
+}
+.gis-flow-forecast:before {
+  content: "\e94b";
+}
+.gis-drought:before {
+  content: "\e94c";
+}
+.gis-cyclones:before {
+  content: "\e94d";
+}
+.gis-search:before {
+  content: "\e943";
+}
+.gis-theme:before {
+  content: "\e942";
+}
+.gis-add-alert-pin:before {
+  content: "\e940";
+}
+.gis-map-add-alert:before {
+  content: "\e941";
+}
+.gis-art:before {
+  content: "\e93f";
+}
+.gis-aooplication:before {
+  content: "\e939";
+}
+.gis-calender:before {
+  content: "\e93a";
+}
+.gis-clear:before {
+  content: "\e93b";
+}
+.gis-compare-date:before {
+  content: "\e93c";
+}
+.gis-layer:before {
+  content: "\e93d";
+}
+.gis-play:before {
+  content: "\e93e";
+}
+.gis-aggregate-01:before {
+  content: "\e932";
+}
+.gis-overlay:before {
+  content: "\e933";
+}
+.gis-route:before {
+  content: "\e934";
+}
+.gis-aggregate:before {
+  content: "\e935";
+}
+.gis-density:before {
+  content: "\e936";
+}
+.gis-facility:before {
+  content: "\e937";
+}
+.gis-hotspot:before {
+  content: "\e938";
+}
+.gis-legend-01:before {
+  content: "\e931";
+}
+.gis-analysis:before {
+  content: "\e92f";
+}
+.gis-info:before {
+  content: "\e930";
+}
+.gis-collapse:before {
+  content: "\e92d";
+}
+.gis-expand:before {
+  content: "\e92e";
+}
+.gis-star-fill:before {
+  content: "\e92b";
+}
+.gis-star-outline:before {
+  content: "\e92c";
+}
+.gis-cross:before {
+  content: "\ea0f";
+}
+.gis-area-shape:before {
+  content: "\e928";
+}
+.gis-minus:before {
+  content: "\e929";
+}
+.gis-plus:before {
+  content: "\e92a";
+}
+.gis-line:before {
+  content: "\e920";
+}
+.gis-rectangle:before {
+  content: "\e921";
+}
+.gis-triangle:before {
+  content: "\e922";
+}
+.gis-circle:before {
+  content: "\e923";
+}
+.gis-free-hand:before {
+  content: "\e924";
+}
+.gis-point:before {
+  content: "\e925";
+}
+.gis-polygan:before {
+  content: "\e926";
+}
+.gis-add:before {
+  content: "\e927";
+}
+.gis-layer-down-arrow:before {
+  content: "\e91e";
+}
+.gis-layer-right-arrow:before {
+  content: "\e91f";
+}
+.gis-expand-layers:before {
+  content: "\e91d";
+}
+.gis-left-arrow:before {
+  content: "\e91b";
+}
+.gis-right-arrow:before {
+  content: "\e91c";
+}
+.gis-heart-fill:before {
+  content: "\e917";
+}
+.gis-heart-off:before {
+  content: "\e918";
+}
+.gis-others:before {
+  content: "\e919";
+}
+.gis-trade-licenece:before {
+  content: "\e91a";
+}
+.gis-home:before {
+  content: "\e916";
+}
+.gis-add-shape:before {
+  content: "\e900";
+}
+.gis-blackspotmonitoring:before {
+  content: "\e901";
+}
+.gis-compare:before {
+  content: "\e902";
+}
+.gis-data-analysis:before {
+  content: "\e903";
+}
+.gis-digital-number:before {
+  content: "\e904";
+}
+.gis-dma-applications:before {
+  content: "\e905";
+}
+.gis-dmamore:before {
+  content: "\e906";
+}
+.gis-drainage-network:before {
+  content: "\e907";
+}
+.gis-fullscreen:before {
+  content: "\e908";
+}
+.gis-geoportal:before {
+  content: "\e909";
+}
+.gis-grievance:before {
+  content: "\e90a";
+}
+.gis-layers:before {
+  content: "\e90b";
+}
+.gis-legend:before {
+  content: "\e90c";
+}
+.gis-measure:before {
+  content: "\e90d";
+}
+.gis-nearme:before {
+  content: "\e90e";
+}
+.gis-print-tool:before {
+  content: "\e90f";
+}
+.gis-propertytax:before {
+  content: "\e910";
+}
+.gis-road-network:before {
+  content: "\e911";
+}
+.gis-search-by-rectangle:before {
+  content: "\e912";
+}
+.gis-watercharges:before {
+  content: "\e913";
+}
+.gis-water-supplynetwork:before {
+  content: "\e914";
+}
+.gis-works-module:before {
+  content: "\e915";
+}

@@ -1,0 +1,744 @@
+@font-face {
+  font-family: 'tnwaris';
+  src:  url('fonts/tnwaris.eot?kzbsnb');
+  src:  url('fonts/tnwaris.eot?kzbsnb#iefix') format('embedded-opentype'),
+    url('fonts/tnwaris.ttf?kzbsnb') format('truetype'),
+    url('fonts/tnwaris.woff?kzbsnb') format('woff'),
+    url('fonts/tnwaris.svg?kzbsnb#tnwaris') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="tnw-"], [class*=" tnw-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tnwaris' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tnw-ndvi:before {
+  content: "\e9ea";
+}
+.tnw-domestic-water-demand:before {
+  content: "\e9e9";
+}
+.tnw-domestic-water-demand-01:before {
+  content: "\e9ef";
+}
+.tnw-water-demand-01:before {
+  content: "\e9f0";
+}
+.tnw-water-demand:before {
+  content: "\e9e8";
+}
+.tnw-et:before {
+  content: "\e9e7";
+}
+.tnw-agriculture:before {
+  content: "\e95d";
+}
+.tnw-reservoir-info:before {
+  content: "\e95e";
+}
+.tnw-crop-coverage:before {
+  content: "\e95f";
+}
+.tnw-irrigation-efficiency:before {
+  content: "\e960";
+}
+.tnw-rainfall-menu:before {
+  content: "\e961";
+}
+.tnw-water-releases:before {
+  content: "\e962";
+}
+.tnw-ph-maintenance-01:before {
+  content: "\e963";
+}
+.tnw-ph-normal-01:before {
+  content: "\e964";
+}
+.tnw-ph-trip-01:before {
+  content: "\e965";
+}
+.tnw-ph-maintenance1:before {
+  content: "\e966";
+}
+.tnw-ph-normal1:before {
+  content: "\e967";
+}
+.tnw-ph-trip1:before {
+  content: "\e968";
+}
+.tnw-ph-maintenance:before {
+  content: "\e969";
+}
+.tnw-ph-trip:before {
+  content: "\e96a";
+}
+.tnw-ph-trip01:before {
+  content: "\e96b";
+}
+.tnw-ph-normal:before {
+  content: "\e96c";
+}
+.tnw-split:before {
+  content: "\e95c";
+}
+.tnw-line-arrow-bottom:before {
+  content: "\e957";
+}
+.tnw-line-arrow-left:before {
+  content: "\e958";
+}
+.tnw-line-arrow-right:before {
+  content: "\e959";
+}
+.tnw-line-arrow-top:before {
+  content: "\e95a";
+}
+.tnw-visual:before {
+  content: "\e95b";
+}
+.tnw-qa:before {
+  content: "\e955";
+}
+.tnw-select-area:before {
+  content: "\e956";
+}
+.tnw-compare-01:before {
+  content: "\e953";
+}
+.tnw-play1:before {
+  content: "\e954";
+}
+.tnw-humidity:before {
+  content: "\e94f";
+}
+.tnw-temperature:before {
+  content: "\e950";
+}
+.tnw-rainfall:before {
+  content: "\e951";
+}
+.tnw-wind-speed:before {
+  content: "\e952";
+}
+.tnw-close:before {
+  content: "\e94e";
+}
+.tnw-air-quality:before {
+  content: "\e944";
+}
+.tnw-incidents:before {
+  content: "\e945";
+}
+.tnw-population:before {
+  content: "\e946";
+}
+.tnw-power:before {
+  content: "\e947";
+}
+.tnw-shelters:before {
+  content: "\e948";
+}
+.tnw-weather:before {
+  content: "\e949";
+}
+.tnw-drinking-water:before {
+  content: "\e94a";
+}
+.tnw-flow-forecast:before {
+  content: "\e94b";
+}
+.tnw-drought:before {
+  content: "\e94c";
+}
+.tnw-cyclones:before {
+  content: "\e94d";
+}
+.tnw-search:before {
+  content: "\e943";
+}
+.tnw-theme:before {
+  content: "\e942";
+}
+.tnw-add-alert-pin:before {
+  content: "\e940";
+}
+.tnw-map-add-alert:before {
+  content: "\e941";
+}
+.tnw-art:before {
+  content: "\e93f";
+}
+.tnw-aooplication:before {
+  content: "\e939";
+}
+.tnw-calender:before {
+  content: "\e93a";
+}
+.tnw-clear:before {
+  content: "\e93b";
+}
+.tnw-compare-date:before {
+  content: "\e93c";
+}
+.tnw-layer:before {
+  content: "\e93d";
+}
+.tnw-play:before {
+  content: "\e93e";
+}
+.tnw-aggregate-01:before {
+  content: "\e932";
+}
+.tnw-overlay:before {
+  content: "\e933";
+}
+.tnw-route:before {
+  content: "\e934";
+}
+.tnw-aggregate:before {
+  content: "\e935";
+}
+.tnw-density:before {
+  content: "\e936";
+}
+.tnw-facility:before {
+  content: "\e937";
+}
+.tnw-hotspot:before {
+  content: "\e938";
+}
+.tnw-legend-01:before {
+  content: "\e931";
+}
+.tnw-analysis:before {
+  content: "\e92f";
+}
+.tnw-info:before {
+  content: "\e930";
+}
+.tnw-collapse:before {
+  content: "\e92d";
+}
+.tnw-expand:before {
+  content: "\e92e";
+}
+.tnw-star-fill:before {
+  content: "\e92b";
+}
+.tnw-star-outline:before {
+  content: "\e92c";
+}
+.tnw-cross:before {
+  content: "\ea0f";
+}
+.tnw-qa1:before {
+  content: "\e998";
+}
+.tnw-compare-011:before {
+  content: "\e999";
+}
+.tnw-play11:before {
+  content: "\e99a";
+}
+.tnw-humidity1:before {
+  content: "\e99b";
+}
+.tnw-temperature1:before {
+  content: "\e99c";
+}
+.tnw-rainfall1:before {
+  content: "\e99d";
+}
+.tnw-wind-speed1:before {
+  content: "\e99e";
+}
+.tnw-close1:before {
+  content: "\e99f";
+}
+.tnw-air-quality1:before {
+  content: "\e9a0";
+}
+.tnw-incidents1:before {
+  content: "\e9a1";
+}
+.tnw-population1:before {
+  content: "\e9a2";
+}
+.tnw-power1:before {
+  content: "\e9a3";
+}
+.tnw-shelters1:before {
+  content: "\e9a4";
+}
+.tnw-weather1:before {
+  content: "\e9a5";
+}
+.tnw-drinking-water1:before {
+  content: "\e9a6";
+}
+.tnw-flow-forecast1:before {
+  content: "\e9a7";
+}
+.tnw-drought1:before {
+  content: "\e9a8";
+}
+.tnw-cyclones1:before {
+  content: "\e9a9";
+}
+.tnw-search1:before {
+  content: "\e9aa";
+}
+.tnw-theme1:before {
+  content: "\e9ab";
+}
+.tnw-add-alert-pin1:before {
+  content: "\e9ac";
+}
+.tnw-map-add-alert1:before {
+  content: "\e9ad";
+}
+.tnw-art1:before {
+  content: "\e9ae";
+}
+.tnw-aooplication1:before {
+  content: "\e9af";
+}
+.tnw-calender1:before {
+  content: "\e9b0";
+}
+.tnw-clear1:before {
+  content: "\e9b1";
+}
+.tnw-compare-date1:before {
+  content: "\e9b2";
+}
+.tnw-layer1:before {
+  content: "\e9b3";
+}
+.tnw-play2:before {
+  content: "\e9b4";
+}
+.tnw-aggregate-011:before {
+  content: "\e9b5";
+}
+.tnw-overlay1:before {
+  content: "\e9b6";
+}
+.tnw-route1:before {
+  content: "\e9b7";
+}
+.tnw-aggregate1:before {
+  content: "\e9b8";
+}
+.tnw-density1:before {
+  content: "\e9b9";
+}
+.tnw-facility1:before {
+  content: "\e9ba";
+}
+.tnw-hotspot1:before {
+  content: "\e9bb";
+}
+.tnw-legend-011:before {
+  content: "\e9bc";
+}
+.tnw-analysis1:before {
+  content: "\e9bd";
+}
+.tnw-info1:before {
+  content: "\e9be";
+}
+.tnw-collapse1:before {
+  content: "\e9bf";
+}
+.tnw-expand1:before {
+  content: "\e9c0";
+}
+.tnw-star-fill1:before {
+  content: "\e9c1";
+}
+.tnw-star-outline1:before {
+  content: "\e9c2";
+}
+.tnw-cross1:before {
+  content: "\ea10";
+}
+.tnw-river-gauge:before {
+  content: "\e9e6";
+}
+.tnw-area-shape:before {
+  content: "\e928";
+}
+.tnw-minus:before {
+  content: "\e929";
+}
+.tnw-plus:before {
+  content: "\e92a";
+}
+.tnw-line:before {
+  content: "\e920";
+}
+.tnw-rectangle:before {
+  content: "\e921";
+}
+.tnw-triangle:before {
+  content: "\e922";
+}
+.tnw-circle:before {
+  content: "\e923";
+}
+.tnw-free-hand:before {
+  content: "\e924";
+}
+.tnw-point:before {
+  content: "\e925";
+}
+.tnw-polygan:before {
+  content: "\e926";
+}
+.tnw-add:before {
+  content: "\e927";
+}
+.tnw-layer-down-arrow:before {
+  content: "\e91e";
+}
+.tnw-layer-right-arrow:before {
+  content: "\e91f";
+}
+.tnw-expand-layers:before {
+  content: "\e91d";
+}
+.tnw-left-arrow:before {
+  content: "\e91b";
+}
+.tnw-right-arrow:before {
+  content: "\e91c";
+}
+.tnw-heart-fill:before {
+  content: "\e917";
+}
+.tnw-heart-off:before {
+  content: "\e918";
+}
+.tnw-others:before {
+  content: "\e919";
+}
+.tnw-trade-licenece:before {
+  content: "\e91a";
+}
+.tnw-home:before {
+  content: "\e916";
+}
+.tnw-add-shape:before {
+  content: "\e900";
+}
+.tnw-blackspotmonitoring:before {
+  content: "\e901";
+}
+.tnw-compare:before {
+  content: "\e902";
+}
+.tnw-data-analysis:before {
+  content: "\e903";
+}
+.tnw-digital-number:before {
+  content: "\e904";
+}
+.tnw-dma-applications:before {
+  content: "\e905";
+}
+.tnw-dmamore:before {
+  content: "\e906";
+}
+.tnw-drainage-network:before {
+  content: "\e907";
+}
+.tnw-fullscreen:before {
+  content: "\e908";
+}
+.tnw-geoportal:before {
+  content: "\e909";
+}
+.tnw-grievance:before {
+  content: "\e90a";
+}
+.tnw-layers:before {
+  content: "\e90b";
+}
+.tnw-legend:before {
+  content: "\e90c";
+}
+.tnw-measure:before {
+  content: "\e90d";
+}
+.tnw-nearme:before {
+  content: "\e90e";
+}
+.tnw-print-tool:before {
+  content: "\e90f";
+}
+.tnw-propertytax:before {
+  content: "\e910";
+}
+.tnw-road-network:before {
+  content: "\e911";
+}
+.tnw-search-by-rectangle:before {
+  content: "\e912";
+}
+.tnw-watercharges:before {
+  content: "\e913";
+}
+.tnw-water-supplynetwork:before {
+  content: "\e914";
+}
+.tnw-works-module:before {
+  content: "\e915";
+}
+.tnw-area-shape1:before {
+  content: "\e96d";
+}
+.tnw-minus1:before {
+  content: "\e96e";
+}
+.tnw-plus1:before {
+  content: "\e96f";
+}
+.tnw-line1:before {
+  content: "\e970";
+}
+.tnw-rectangle1:before {
+  content: "\e971";
+}
+.tnw-triangle1:before {
+  content: "\e972";
+}
+.tnw-circle1:before {
+  content: "\e973";
+}
+.tnw-free-hand1:before {
+  content: "\e974";
+}
+.tnw-point1:before {
+  content: "\e975";
+}
+.tnw-polygan1:before {
+  content: "\e976";
+}
+.tnw-add1:before {
+  content: "\e977";
+}
+.tnw-layer-down-arrow1:before {
+  content: "\e978";
+}
+.tnw-layer-right-arrow1:before {
+  content: "\e979";
+}
+.tnw-expand-layers1:before {
+  content: "\e97a";
+}
+.tnw-left-arrow1:before {
+  content: "\e97b";
+}
+.tnw-right-arrow1:before {
+  content: "\e97c";
+}
+.tnw-heart-fill1:before {
+  content: "\e97d";
+}
+.tnw-heart-off1:before {
+  content: "\e97e";
+}
+.tnw-others1:before {
+  content: "\e97f";
+}
+.tnw-trade-licenece1:before {
+  content: "\e980";
+}
+.tnw-home1:before {
+  content: "\e981";
+}
+.tnw-add-shape1:before {
+  content: "\e982";
+}
+.tnw-blackspotmonitoring1:before {
+  content: "\e983";
+}
+.tnw-compare1:before {
+  content: "\e984";
+}
+.tnw-data-analysis1:before {
+  content: "\e985";
+}
+.tnw-digital-number1:before {
+  content: "\e986";
+}
+.tnw-dma-applications1:before {
+  content: "\e987";
+}
+.tnw-dmamore1:before {
+  content: "\e988";
+}
+.tnw-drainage-network1:before {
+  content: "\e989";
+}
+.tnw-fullscreen1:before {
+  content: "\e98a";
+}
+.tnw-geoportal1:before {
+  content: "\e98b";
+}
+.tnw-grievance1:before {
+  content: "\e98c";
+}
+.tnw-layers1:before {
+  content: "\e98d";
+}
+.tnw-legend1:before {
+  content: "\e98e";
+}
+.tnw-measure1:before {
+  content: "\e98f";
+}
+.tnw-nearme1:before {
+  content: "\e990";
+}
+.tnw-print-tool1:before {
+  content: "\e991";
+}
+.tnw-propertytax1:before {
+  content: "\e992";
+}
+.tnw-road-network1:before {
+  content: "\e993";
+}
+.tnw-search-by-rectangle1:before {
+  content: "\e994";
+}
+.tnw-watercharges1:before {
+  content: "\e995";
+}
+.tnw-water-supplynetwork1:before {
+  content: "\e996";
+}
+.tnw-works-module1:before {
+  content: "\e997";
+}
+.tnw-cloud-rain-fill:before {
+  content: "\e9c3";
+}
+.tnw-forecast:before {
+  content: "\e9c4";
+}
+.tnw-ground-water-dss:before {
+  content: "\e9c5";
+}
+.tnw-activity:before {
+  content: "\e9c6";
+}
+.tnw-alarm:before {
+  content: "\e9c7";
+}
+.tnw-alarm-fill:before {
+  content: "\e9c8";
+}
+.tnw-analysis2:before {
+  content: "\e9c9";
+}
+.tnw-bridge:before {
+  content: "\e9ca";
+}
+.tnw-canals:before {
+  content: "\e9cb";
+}
+.tnw-cloud-meatball-solid:before {
+  content: "\e9cc";
+}
+.tnw-dam:before {
+  content: "\e9cd";
+}
+.tnw-dam-1:before {
+  content: "\e9ce";
+}
+.tnw-drought-1:before {
+  content: "\e9cf";
+}
+.tnw-drought-svgrepo-com:before {
+  content: "\e9d0";
+}
+.tnw-ground-water:before {
+  content: "\e9d1";
+}
+.tnw-map-draw:before {
+  content: "\e9d2";
+}
+.tnw-map-layer:before {
+  content: "\e9d3";
+}
+.tnw-map-measurement:before {
+  content: "\e9d4";
+}
+.tnw-map-selected-zoom-in:before {
+  content: "\e9d5";
+}
+.tnw-mi-tanks:before {
+  content: "\e9d6";
+}
+.tnw-mi-tanks-01:before {
+  content: "\e9d7";
+}
+.tnw-radio-circle:before {
+  content: "\e9d8";
+}
+.tnw-radio-circle-marked:before {
+  content: "\e9d9";
+}
+.tnw-saw-mill:before {
+  content: "\e9da";
+}
+.tnw-selected_zoom_in:before {
+  content: "\e9db";
+}
+.tnw-soil:before {
+  content: "\e9dc";
+}
+.tnw-sort:before {
+  content: "\e9dd";
+}
+.tnw-trendline-down-arrow:before {
+  content: "\e9de";
+}
+.tnw-trendline-up-arrow:before {
+  content: "\e9df";
+}
+.tnw-village-budget:before {
+  content: "\e9e0";
+}
+.tnw-Water-Drinking:before {
+  content: "\e9e1";
+}
+.tnw-water-aduit:before {
+  content: "\e9e2";
+}
+.tnw-water-aduit-1:before {
+  content: "\e9e3";
+}
+.tnw-water-save:before {
+  content: "\e9e4";
+}
+.tnw-water-scarcity:before {
+  content: "\e9e5";
+}

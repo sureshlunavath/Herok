@@ -1,0 +1,65 @@
+.bottom_paly_bar {
+
+  .ngx-slider {
+    &.with-legend {
+      margin-bottom: 0;
+    }
+
+    .ngx-slider-pointer {
+      width: 1.5rem;
+      height: 1.5rem;
+      background: #DC3545;
+      top: -8px;
+
+      &::after {
+        background: transparent;
+        visibility: hidden;
+      }
+    }
+
+    .ngx-slider-ticks {
+      top: -6;
+
+      .ngx-slider-tick {
+        background: transparent;
+        margin-left: 0;
+
+        ngx-slider-tooltip-wrapper {
+          .ngx-slider-inner-tooltip {
+            background: lighten($danger, 10);
+            width: 1rem;
+            height: 1rem;
+            border-radius: 1rem;
+
+          }
+
+        }
+
+        &.ngx-slider-selected {
+          background: lighten($danger, 10);
+          width: 1rem;
+          height: 1rem;
+          border-radius: 1rem;
+        }
+      }
+
+    }
+
+    .ngx-slider-selection-bar {
+      .ngx-slider-selection {
+        background: #198754;
+      }
+    }
+
+    .ngx-slider-tick-legend {
+      font-size: .75rem;
+      color: $white;
+      text-shadow: 2px 2px 4px #00000099;
+    }
+
+    .ngx-slider-bar-wrapper {
+      margin-top: -0.8125rem;
+    }
+
+  }
+}
