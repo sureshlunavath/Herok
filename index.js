@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 3000
-
+const path = require('path')
 /* 
     Incase you are using mongodb atlas database uncomment below line
     and replace "mongoAtlasUri" with your mongodb atlas uri.
